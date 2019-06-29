@@ -1,8 +1,4 @@
-//This is a simple template for you to experiment with
 
-//This is a comment  ... the two slashes at the start mean that the computer ignores it
-
-//You can look up more commands here ... https://p5js.org/reference/
 
 var x=200;
 var y=200;
@@ -11,15 +7,8 @@ var y2 = 200;
 var ymove = 2;
 var xmove = 1;
 
-
-
-
-
 function setup()
 {
-    //this function runs once at the start of your program
-    
-    //this command creates a drawing area in the browser - it should only be called once
     createCanvas(500,500);
     fill(255);
 }
@@ -87,51 +76,5 @@ function draw()
         }
 
 }
-    /*
-    //change the fill color
-    
-    
-    //change the outline color
-//    stroke(0,255,0);
-    
-    //this command draws a rectangle with the outline and fill colors that we just set
-    //rect(125,125,250,250);
-   // background(255);
-    
-    //fill (255,0,0);
-    text("bleblejaldflkja;dklfj;lkbleblejaldflkja;dklfj;lk\nbleblejaldflkja;dklfj;lk\nbleblejaldflkja;dklfj;lk\nbleblejaldflkja;dklfj;lk\nbleblejaldflkja;dklfj;lk\nbleblejaldflkja;dklfj;lk\nbleblejaldflkja;dklfj;lk\nbleblejaldflkja;dklfj;lk\nbleblejaldflkja;dklfj;lk\nbleblejaldflkja;dklfj;lk\n",x,y);
-    
-    
-    //y = y - ymove;
-    
-    if(x > width){
-        xmove = -xmove;
-        //y = -ymove; 
-    }else if(x == 0){
-        xmove = 2;
-    }
-    x = x + xmove;
-    //if(y <= 0){
-    //    y = 500;
-    //}
-/*
-    if(y >= 500){
-        ymove = +ymove;
-        
-    }
-    
-    if(x >= width){
-        xmove = +xmove;
-    }
-    
-  //  var elx = 0;
-    //var speed = 1;
-//    elx=elx+speed;
-//    ellipse(elx,50,50,50);
-  //  if(elx>=width){
-    //    speed =speed -1;
-    }
-    
-    */
     
     
