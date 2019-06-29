@@ -18,9 +18,8 @@ function keyPressed()
 }
 function draw()
 {
-         var eye1 = map(mouseX,0,800,0,5);
-     var eye2 = map(mouseX,0,800,0,5);
-    //this command clears the background to black (try changing the numbers)
+    var eye1 = map(mouseX,0,800,0,5);
+    var eye2 = map(mouseX,0,800,0,5);
     background(0);
     fill(255); 
     ellipse(250,200,250,250);
